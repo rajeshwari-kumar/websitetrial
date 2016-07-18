@@ -1,0 +1,1 @@
+atom is a hackable text editor
