@@ -1,5 +1,5 @@
 .main{
-  background: url("../bg.jpg") no-repeat;
+  background: url("../bg.jpg");
   background-size: 100% 100%;
   width: 100%;
   height:500px;
@@ -9,12 +9,14 @@ body{
   background-color: lightgrey;
 }
 .main h1{
-  font-size: 70px;
-  font-family: cursive;
-  font-style: italic;
+  font-size: 140px;
+  letter-spacing: 5px;
+  font-family: 'Tangerine', cursive;
   margin: auto;
   position: absolute;
-  left: 510px; top: 245px;
+  left: 490px; top: 150px;
+  color: #17A589;
+  text-shadow: 3px 5px 0 #ABEBC6;
 }
 li
 {
@@ -23,31 +25,111 @@ li
   float: left;
   overflow: hidden;
   position:relative;
-  left:500px;
-  top:-50px;
+  left:980px;
+  top:30px;
+}
+ul{
+  margin-top: -30px;
 }
 ul a{
   list-style: none;
   text-decoration: none;
   font-size: 20px;
+    color: white;
+    text-transform: uppercase;
 }
 ul a:hover
 {
-  text-decoration: underline;
-  color: black;
-  font-size: 27px;
+  text-decoration: none;;
+  color: #EC7063;
+  font-size: 32px;
 }
-header{
+header {
 border-style: solid;
-border-radius: 10px;
-border-color: currentColor;
-background-color: grey;
+border-radius: 0px;
+border-top: 10px;
+border-color: transparent;
+background-color:transparent;
+position: fixed;
+width: 100%;
+z-index: 9999;
 }
 h1{
-
   margin-left: 20px;
   font-size: 30px;
-  font-family: sans-serif;
+  position: relative;
+  top: 30px;
+  font-family: inherit;
   font-style: italic;
-  color: pink;
+  color:#EC407A;
+}
+header h1{
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 40px;
+  letter-spacing: 2.5px;
+  text-shadow: 0 5px 0 #F8BBD0 ;
+}
+.grid_4 img{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.grid_4 p{
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.grid_4 h2{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.hero img{
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+}
+.grid_12{
+  margin-top: 25px;
+  margin-right:20px;
+  font-size: 1.5em;
+  line-height: 1.5;
+      text-align: center;
+}
+.grid_12 p{
+  margin-left: 15px;
+    text-align: center;
+}
+input{
+margin-top: 15px;
+width: 200px;
+height: 50px;
+border: solid;
+border-radius: 5px;
+border-color: black;
+background: black;
+font-size: 15px;
+color: white;
+text-transform: uppercase;
+padding: 15px;
+letter-spacing: 3px;
+}
+input:hover{
+  background: white;
+  color: black;
+}
+footer a{
+    color: blue;
+  text-decoration: none;
+  font-size: 20px;
+}
+footer p{
+  margin-top: 20px;
+  font-size: 20px;
+}
+footer{
+  border-style: dashed;
+  border-top: 10px;
+}
+footer a:hover{
+  color: #F1948A;
 }
