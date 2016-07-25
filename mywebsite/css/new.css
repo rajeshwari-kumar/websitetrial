@@ -11,7 +11,7 @@ body{
 .main h1{
   font-size: 80px;
   letter-spacing: 5px;
-  font-family: 'Harmatan', cursive;
+  font-family: 'Harmattan', cursive;
   margin: auto;
   position: absolute;
   left: 260px; top: 150px;
@@ -24,7 +24,7 @@ h3{
   left:100px;
   font-family: 'Great Vibes', cursive;
   color: #F8F9F9;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bolder;
   letter-spacing: 4px;
 
@@ -33,6 +33,7 @@ li
 {
   display: inline;
   padding-right: 18px;
+  text-transform: capitalize;
   overflow: hidden;
   position:relative;
   left:610px;
@@ -44,10 +45,10 @@ ul{
 ul a{
   list-style: none;
   text-decoration: none;
-  font-size: 20px;
-  font-family: 'Rock Salt', cursive;
+  text-transform: capitalize;
+  font-size: 29px;
+  font-family: 'harmattan', cursive;
     color: white;
-    text-transform: uppercase;
 }
 ul a:hover
 {
@@ -74,7 +75,7 @@ h1{
   color:#EC407A;
 }
 header h1{
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'harmattan', cursive;
   font-size: 40px;
   letter-spacing: 2.5px;
   text-shadow: 0 5px 0 #F8BBD0 ;
@@ -90,7 +91,7 @@ header h1{
   margin-right: 200px;
 }
 .grid_4 p{
-  font-family:'harmatan',cursive;
+  font-family:'harmattan',cursive;
   text-align: justify;;
   font-size: 17px;
   line-height: 1.5;
@@ -110,7 +111,7 @@ header h1{
   height: 500px;
 }
 .grid_12{
-  font-family: 'harmatan',cursive;
+  font-family: 'harmattan',cursive;
   margin-top: 25px;
   margin-right:5px;
   font-size: 20px;
@@ -138,15 +139,9 @@ input:hover{
   background: white;
   color: black;
 }
-.site{
-  position: relative;
-  top: 1px;
-  left: 35px;
-  letter-spacing: 5px;
-}
 .idea{
   position: relative;
-  top: 5px;
+  top: 20px;
   left: 10px;
 }
 .footgrid_4{
@@ -154,23 +149,26 @@ input:hover{
   position: relative;
 left: 100px;
 top: 6px;
-font-family: sans-serif;
+font-family: 'harmattan',cursive;
 font-size: 1.125em;
 font-weight: 100;
 line-height: 20px;
-color:#E74C3C;
+color:#27AE60;
 margin-top: 20px;
 margin-bottom: 80px;
 }
 hr{
   position: relative;
-  top: 0px;
+  top: 15px;
 }
 .wrap{
   position: absolute;
   top: 100px;
   left: 200px;
   text-align: center;
+}
+.wrap h1{
+  font-family: 'harmattan',cursive;
 }
 .b1 img{
   margin-top: 220px;
@@ -188,28 +186,32 @@ hr{
   overflow: hidden;
 }
 .b1 h2{
+  font-family: 'harmattan',cursive;
+  font-size: 30px;
   position: absolute;
-  top: 435px;
+  top: 420px;
   left: 250px;
   text-align: center;
 }
 .b2 h2{
+  font-family: 'harmattan',cursive;
+  font-size: 30px;
   position: absolute;
-  top: 435px;
+  top: 420px;
   left: 560px;
   text-align: center;
 }
 .b3 h2{
+  font-family: 'harmattan',cursive;
+  font-size: 30px;
   position: absolute;
-  top: 435px;
+  top: 420px;
   left: 930px;
   text-align: center;
 }
 .b1 .b2 .b3 h2{
-  font-size: 30px;
-  font-family: 'Great Vibes',cursive;
-  letter-spacing: 4px;
-    color:#E74C3C;
+  letter-spacing: 2px;
+  color:#E74C3C;
   margin-bottom: 15px;
 }
 .d1{
@@ -219,10 +221,10 @@ hr{
 }
 .d1 p{
   margin-top: 30px;
-  font-size: 35px;
-  text-align: center;
-  font-family:'Harmatan', cursive;
+  font-family:'Harmattan', cursive;
   color: #17A589;
+  font-size: 40px;
+  text-align: center;
 }
 .s1 img{
 position: relative;
@@ -237,17 +239,17 @@ height: 80px;
 }
 .s2 h2{
   margin-top: 25px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Great Vibes',cursive;
   letter-spacing: 4px;
   color:#E74C3C;
   margin-bottom: 2px;
 }
 .s2 p{
-  font-family: 'Harmatan', cursive;
+  font-family: 'Harmattan', cursive;
   text-align: justify;
-  font-size: 1em;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.15;
   margin-right: 5px;
 }
 .s3{
@@ -257,18 +259,11 @@ height: 80px;
 }
 .s3 h2{
   margin-top: 25px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Great Vibes',cursive;
   letter-spacing: 4px;
   color:#E74C3C;
   margin-bottom: 6px;
-}
-.site1{
-  position: relative;
-  top: 150px;
-  left: 350px;
-  width:500px;
-  letter-spacing: 5px;
 }
 .idea1{
   position: relative;
@@ -278,18 +273,16 @@ height: 80px;
 .z {
   float: right;
   position: relative;
-left: 100px;
-top: 200px;
-font-family: sans-serif;
+left: 50px;
+top: 150px;
+font-family: 'harmattan',cursive;
 font-size: 1.125em;
 font-weight: 100;
 line-height: 20px;
-color:#EC407A;
+color:#27AE60;
 margin-bottom: 60px;
 }
-.z a{
-  color:#1ABC9C;
-}
+
 .line hr{
   position: relative;
   top: 150px;
