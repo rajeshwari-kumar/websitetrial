@@ -148,14 +148,23 @@ input:hover{
   float: right;
   position: relative;
 left: 100px;
-top: 6px;
+top: -15px;
 font-family: 'harmattan',cursive;
-font-size: 1.125em;
+font-size: 20px;
 font-weight: 100;
 line-height: 20px;
 color:#27AE60;
 margin-top: 20px;
 margin-bottom: 80px;
+}
+.add {
+  color: #2E4053;
+}
+.drop{
+color: #2E4053;
+}
+.footgrid_4 a{
+  color: #27AE60;
 }
 hr{
   position: relative;
